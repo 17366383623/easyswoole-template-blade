@@ -1,11 +1,11 @@
 <?php
 
 
-namespace EasySwoole\Template\Think;
+namespace EasySwoole\Template\Blade;
 
 use Throwable;
 
-class ThinkEngine
+class BladeEngine
 {
     private $engine;
 
@@ -38,7 +38,7 @@ class ThinkEngine
      * @param array $data
      * @param array $options
      */
-    public function afterRender(?string $result, string $template, array $data = [], array $options = [])
+    public function afterRender(?string $result, string $template, array $data = [], array $options = []): void
     {
 
     }
